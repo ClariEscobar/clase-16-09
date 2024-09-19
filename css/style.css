@@ -150,6 +150,14 @@ letter-spacing: 2px;
     margin-top: -25px; /* Mueve la imagen hacia abajo */
 }
 
+.grid-image {
+    margin-right:-25px; /* O ajusta según la distancia deseada */
+}
+
+.grid-title {
+    margin-left: 10px; /* Si también quieres ajustar el espacio del lado izquierdo */
+}
+
 /* ==========================================================================================================
 										ADVANTAGES
    ========================================================================================================== */
@@ -160,7 +168,7 @@ letter-spacing: 2px;
   overflow: hidden;
 }
 .fh5co-advantages-outer .span-perfect {
-  color: #648cff;
+  color: #fff;
   text-transform: uppercase;
   font-size: 27px;
   letter-spacing: 1px;
@@ -168,6 +176,7 @@ letter-spacing: 2px;
 .fh5co-advantages-outer .span-features {
   text-transform: uppercase;
   font-size: 42px;
+ color:#fff;
 }
 .fh5co-advantages-outer .second-title {
   text-align: center;
@@ -256,7 +265,7 @@ letter-spacing: 2px;
 										FEATURES
    ========================================================================================================== */
 .curved-bg-div {
-  background: url("../img/curved-bgg.jpg") no-repeat;
+  background: url("../img/fondoportada.jpg") no-repeat;
   background-position: 0px -140px;
   background-size: cover;
   width: 100%;
@@ -279,14 +288,14 @@ letter-spacing: 2px;
   position: relative;
 }
 .fh5co-features-outer .sm-6-content h1 {
-  color: #648cff;
+  color: #fff;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 .fh5co-features-outer .sm-6-content p {
-  color: #111;
+  color: #fff;
   font-weight: 500;
   font-size: 14.5px;
   line-height: 1.8em;
