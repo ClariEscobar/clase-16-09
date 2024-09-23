@@ -7,7 +7,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Poppins', monospace;
 }
 
 html {
@@ -95,14 +95,14 @@ html {
   position: relative;
 }
 .fh5co-hero-inner > h1 {
- color: #fff;
-font-weight: 700;
-font-size: 100px;
-letter-spacing: 2px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 85px;
+    letter-spacing: 2px;
 }
 .fh5co-hero-inner > p {
-  width: 400px;
-    font-size: 14px;
+      width: 400px;
+    font-size: 20px;
     color: #fff;
     margin-top: -10px;
     margin-bottom: 20px;
@@ -133,29 +133,29 @@ letter-spacing: 2px;
   font-family: 'Poppins', sans-serif;
 }
 
-/* Cambia el color de grid-title */
+/* color de grid-title */
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
   float: left;
   font-size: 20px;
   font-weight: 600;
-  color: #fff; /* Cambia este valor por el color que prefieras */
+  color: #fff;
 }
 
-.fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title
+.fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title 
  {
     font-family: 'Poppins', sans-serif;
 }
 
 .col-sm-4 .grid-image {
-    margin-top: -25px; /* Mueve la imagen hacia abajo */
+    margin-top: -25px;
 }
 
 .grid-image {
-    margin-right:-25px; /* O ajusta según la distancia deseada */
+    margin-right:-25px;
 }
 
 .grid-title {
-    margin-left: 10px; /* Si también quieres ajustar el espacio del lado izquierdo */
+    margin-left: 10px; 
 }
 
 /* ==========================================================================================================
@@ -289,17 +289,17 @@ letter-spacing: 2px;
 }
 .fh5co-features-outer .sm-6-content h1 {
   color: #fff;
-  text-transform: uppercase;
-  font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 .fh5co-features-outer .sm-6-content p {
-  color: #fff;
-  font-weight: 500;
-  font-size: 14.5px;
-  line-height: 1.8em;
-  width: 450px;
+ color: #fff;
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 1.3em;
+    width: 450px;
 }
 .fh5co-features-outer .col-sm-6 .col-sm-image-container {
   position: relative;
@@ -444,12 +444,12 @@ letter-spacing: 2px;
   margin-top: 100px;
 }
 .fh5co-reviews-outer > h1 {
-  color: #648cff;
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  text-align: center;
+  color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .fh5co-reviews-outer > small {
   text-align: center;
@@ -457,12 +457,35 @@ letter-spacing: 2px;
 }
 .fh5co-reviews-outer .testimonial-desc {
   clear: both;
-  padding-top: 30px;
-  font-weight: 500;
+    font-weight: 500;
+    color: #fff
 }
 .fh5co-reviews-outer .testimonial-2 {
   margin-left: 50px;
 }
+
+.custom-title {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px
+    
+    
+}
+
+.position-relative {
+    position: relative; /* Esto permite que el contenido y la imagen se posicionen correctamente */
+}
+
+.decorative-image-outside {
+    position: absolute;
+    top: -110px; /* Mueve la imagen hacia arriba para que salga del contenedor */
+    right: -150px; /* Mueve la imagen hacia la derecha para que salga del contenedor */
+    width: 1500px; /* Ajusta el tamaño de la imagen según tu preferencia */
+    height: auto; /* Mantiene la proporción de la imagen */
+    z-index: -1; /* Coloca la imagen detrás del texto */
+}
+
 
 /* ==========================================================================================================
 										BOTTOM
