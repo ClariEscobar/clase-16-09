@@ -166,6 +166,7 @@ html {
   height: auto;
   width: 100%;
   overflow: hidden;
+    
 }
 .fh5co-advantages-outer .span-perfect {
   color: #fff;
@@ -201,6 +202,7 @@ html {
     float: left;
     font-size: 20px;
     font-weight: lighter;
+   
 }
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-desc {
@@ -227,7 +229,7 @@ html {
   padding: 70px;
 }
 .fh5co-slider-outer h1 {
-  color: #648cff;
+  color: #fff;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
@@ -260,7 +262,9 @@ html {
   width: 200px;
   object-fit: contain;
 }
-
+.fh5co-slider-outer small {
+  color: #fff; /* Cambia el color al que desees */
+}
 /* ==========================================================================================================
 										FEATURES
    ========================================================================================================== */
@@ -268,8 +272,20 @@ html {
   background: url("../img/fondoportada.jpg") no-repeat;
   background-position: 0px -140px;
   background-size: cover;
-  width: 100%;
+  width: 100vw; /* Cambia a 100vw para ocupar todo el ancho de la ventana */
   height: 300px;
+ margin-right: -13vw; /* Compensa el ancho para que se extienda hasta los extremos */
+    margin-left: -13vw;
+    margin-top:100px
+}
+
+/* Imagen del lado derecho del texto */
+.image-right {
+     width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: -353px;
+    margin-top: -486px;/
 }
 
 .fh5co-features-outer {
