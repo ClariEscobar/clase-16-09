@@ -8,7 +8,6 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Poppins', monospace;
-margin-bottom: -30px;
 }
 
 html {
@@ -271,7 +270,7 @@ html {
   height: 400px;
   width: 200px;
   object-fit: contain;
-    margin-bottom: 100px
+    margin-bottom: 10px
 }
 .fh5co-slider-outer small {
 color: #fff;
@@ -617,7 +616,7 @@ color: #fff;
 
 
 .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 img {
-    margin-top: 34px;
+    margin-top: 65px;
     margin-left: -780px;
     height: 260px;
     
