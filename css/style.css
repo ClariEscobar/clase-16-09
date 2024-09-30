@@ -1186,8 +1186,7 @@ body {
 @media (max-width: 768px){
     .fh5co-features-outer .col-sm-6 img {
         height: 400px;
-        margin-left: -1100px !important;
-        margin-top: 100px;
+        margin-top: 1px;
         margin-bottom: -70px;
 }
 }
@@ -1305,5 +1304,14 @@ color: #FFF;
 width: 90%;
 margin-left: 25px;
 font-size: 25px;
+margin-top: -1px;
 }
+}
+
+@media (max-width: 768px){
+    .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 img{
+        height: 400px;
+        margin-left: -1850px !important;
+        margin-top: 1px;
+    }
 }
