@@ -307,7 +307,7 @@ color: #fff;
     height: auto;
     display: block;
     margin-left: -800px;
-    margin-top: -300px;
+    margin-top: -400px;
     
 }
 
@@ -520,7 +520,7 @@ color: #fff;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 25px;
-    margin-top: -100px;
+    margin-top: -205px;
     text-align: center;
     margin-left: 200px;
     margin-right: -200px;
@@ -590,6 +590,7 @@ color: #fff;
   margin-top: 120px;
   overflow-x: hidden; /* Mantiene oculto el desbordamiento horizontal */
   overflow-y: hidden; /* Oculta el desbordamiento vertical */
+    margin-bottom: -335px;
 }
 
 .fh5co-bottom-outer .fh5co-bottom-inner {
@@ -603,7 +604,7 @@ color: #fff;
   text-align: center;
     margin-left: 100px;
         margin-right: -450px;
-    margin-top: 100px;
+    margin-top: -215px;
 }
 
 .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 p {
@@ -617,7 +618,7 @@ color: #fff;
 
 
 .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 img {
-    margin-top: 65px;
+    margin-top: -315px;
     margin-left: -780px;
     height: 260px;
     
@@ -631,6 +632,15 @@ color: #fff;
     margin-top: 20px; /* Añade un margen superior (opcional) */
 }
 
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* fondo semitransparente */
+    background-image: url('ruta/a/tu/fondo.jpg'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir el área */
+    background-position: center; /* Centra la imagen */
+    overflow-x: hidden;
+}
 
 
    /* ==========================================================================================================
@@ -1005,8 +1015,9 @@ body {
   }
 
   .fh5co-bottom-outer {
-    margin-top: 40px;
+    margin-top: -120px;
     overflow: hidden;
+    margin-bottom: -10px;
   }
 
   .fh5co-bottom-outer .fh5co-bottom-inner {
@@ -1045,6 +1056,7 @@ body {
   .fh5co-reviews-outer {
     height: auto;
         margin-top: -60px;
+      
   }
 
   .fh5co-reviews-outer .fh5co-reviews-inner {
@@ -1073,7 +1085,7 @@ body {
   .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 p {
     width: 90%;
     margin: 0 auto;
-    font-size: 14.5px;
+    font-size: 12px;
     margin-top: -15px;
   }
 
@@ -1210,7 +1222,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 50px;
      z-index: 1;
       position: relative;
 
@@ -1220,7 +1232,7 @@ body {
 @media (max-width: 768px){
 .decorative2-image-outside  {
     position: absolute;
-    top: 10px; /* Mueve la imagen hacia arriba para que salga del contenedor */
+    top: 50px; /* Mueve la imagen hacia arriba para que salga del contenedor */
     right: -20px; /* Mueve la imagen hacia la derecha para que salga del contenedor */
     width: 500px; /* Ajusta el tamaño de la imagen según tu preferencia */
     height: 360px; /* Mantiene la proporción de la imagen */
@@ -1287,7 +1299,7 @@ color: #FFF;
 
 @media (max-width: 768px){
     .custom-title3{
-        margin-top: 5px;
+        margin-top: 50px;
     }
 }
 
@@ -1306,7 +1318,7 @@ color: #FFF;
 .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 h1{
 width: 90%;
 margin-left: 25px;
-font-size: 25px;
+font-size: 20px;
 margin-top: -1px;
 }
 }
@@ -1323,4 +1335,27 @@ margin-top: -1px;
     .fh5co-reviews-outer .testimonial-desc{
         font-size: 12px;
     } 
+}
+
+/* Mostrar la imagen solo en pantallas grandes */
+@media (max-width: 767px) { /* Ajusta el valor según tus necesidades */
+    .image-container {
+        display: none; /* Oculta el contenedor de la imagen en pantallas pequeñas */
+    }
+}
+
+/* Asegúrate de que se muestre en pantallas más grandes */
+@media (min-width: 768px) {
+    .image-container {
+        display: block; /* Muestra el contenedor de la imagen en pantallas grandes */
+    }
+}
+
+@media (max-width: 768px) { /* Ajusta este valor según tus necesidades */
+    .decorative-image-outside {
+        top: -250px; /* Cambia este valor para ajustar la posición en móviles */
+        right: -10000px; /* Cambia este valor para ajustar la posición en móviles */
+        width: ; /* Ajusta el tamaño de la imagen para que sea responsiva */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
 }
